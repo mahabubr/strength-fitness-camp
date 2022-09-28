@@ -8,7 +8,7 @@ const Card = ({info}) => {
     const {name, description, thumb, age, time} = info
 
     return (
-        <div className='card'>
+        <div className='card' data-aos="zoom-in-up">
             <img src={thumb} alt="" />
             <h2 className='card-title'>{name}</h2>
             <p className='card-des'>{description.slice(0, 100)}...</p>
