@@ -1,0 +1,60 @@
+.card {
+    background-color: #4f5661;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card img {
+    height: 150px;
+    width: 100%;
+    object-fit: none;
+    border-radius: 15px;
+}
+
+.card-title {
+    color: #ffffff;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.card-des {
+    color: #c0c0c0;
+    margin-top: 5px;
+}
+
+.card-age {
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.card-age span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-time {
+    margin-top: 5px;
+    color: #ffffff;
+}
+
+.card-time span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-btn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: #FFE3D8;
+    font-weight: 600;
+    color: #222831;
+    cursor: pointer;
+}
+
+.card-btn:hover {
+    background-color: #f8c9b6;
+}

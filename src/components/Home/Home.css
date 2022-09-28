@@ -1,0 +1,30 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.card-container {
+    padding: 100px;
+}
+.header-title {
+    display: flex;
+    align-items: center;
+}
+
+.header-title img {
+    width: 50px;
+    margin-right: 15px;
+}
+.side-title {
+    color: #ff973cee;
+}
+.card-section {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.title-slogan {
+    color: #ffffff;
+    margin-top: 30px;
+    font-weight: 400;
+}
