@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1111",
+        "name": "Lunges",
+        "description": "Challenging your balance is an essential part of a well-rounded exercise routine. Lunges do just that, promoting functional movement while also increasing strength in your legs and glut.",
+        "age": "18-21",
+        "time": 22,
+        "thumb": "https://images.unsplash.com/photo-1595571024048-45a59177f538?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+    },
+    {
+        "id": "1122",
+        "name": "Pushups",
+        "description": "Drop and give me 20! Pushups are one of the most basic yet effective bodyweight moves you can perform because of the number of muscles that are recruited to perform them.",
+        "age": "20-24",
+        "time": 28,
+        "thumb": "https://images.unsplash.com/photo-1598971457999-ca4ef48a9a71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+        "id": "1133",
+        "name": "Squats",
+        "description": "Squats increase lower body and core strength, as well as flexibility in your lower back and hips. Because they engage some of the largest muscles in the body, they also pack a major punch in terms of calories burned.",
+        "age": "22-25",
+        "time": 35,
+        "thumb": "https://images.unsplash.com/photo-1541600383005-565c949cf777?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+        "id": "1144",
+        "name": "overhead dumbbell",
+        "description": "Compound exercises, which utilize multiple joints and muscles, are perfect for busy bees as they work several parts of your body at once. A standing overhead press isn’t only one of the best exercises you can do for your shoulders, but it also engages your upper back and core.",
+        "age": "21-28",
+        "time": 45,
+        "thumb": "https://images.unsplash.com/photo-1618169480981-ddb08182cfa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+    },
+    {
+        "id": "1155",
+        "name": "Dumbbell rows",
+        "description": "Not only will these make your back look killer in that dress, but dumbbell rows are also another compound exercise that strengthens multiple muscles in your upper body. Choose a moderate-weight dumbbell and ensure that you’re squeezing at the top of the movement.",
+        "age": "18-30",
+        "time": 30,
+        "thumb": "https://images.unsplash.com/photo-1516481265257-97e5f4bc50d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+        "id": "1166",
+        "name": "Single-leg dead lifts",
+        "description": "This is another exercise that challenges your balance. Single-leg dead lifts require stability and leg strength. Grab a light to moderate dumbbell to complete this move.",
+        "age": "22-26",
+        "time": 50,
+        "thumb": "https://images.unsplash.com/photo-1639496908153-e89e77ea95f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+        "id": "1177",
+        "name": "Bur pees",
+        "description": "An exercise we love to hate, burpees are a super-effective, whole-body move that provides great bang for your buck for cardiovascular endurance and muscle strength.",
+        "age": "18-30",
+        "time": 40,
+        "thumb": "https://images.unsplash.com/photo-1640142835551-a6d4fa313d5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80"
+    },
+    {
+        "id": "1188",
+        "name": "Side planks",
+        "description": "A healthy body requires a strong core at its foundation, so don’t neglect core-specific moves like the side plank.",
+        "age": "23-28",
+        "time": 25,
+        "thumb": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+        "id": "1199",
+        "name": "Glut bridge",
+        "description": "The glute bridge effectively works your entire posterior chain, which isn’t only good for you, but it’ll make your booty look perkier, too.",
+        "age": "25-32",
+        "time": 60,
+        "thumb": "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    }
+]
