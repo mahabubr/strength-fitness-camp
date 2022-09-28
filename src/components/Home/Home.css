@@ -28,3 +28,8 @@
     margin-top: 30px;
     font-weight: 400;
 }
+.sidebar-container {
+    background-color: #4f5661;
+    padding: 20px;
+    text-align: center;
+}

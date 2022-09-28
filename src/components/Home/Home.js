@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card';
+import SideBar from '../SideBar/SideBar';
 import './Home.css'
 
 const Home = () => {
@@ -26,8 +27,8 @@ const Home = () => {
                     }
                 </div>
             </div>
-            <div>
-                <h1>Side Bar</h1>
+            <div className='sidebar-container'>
+                <SideBar />
             </div>
         </div>
     );
