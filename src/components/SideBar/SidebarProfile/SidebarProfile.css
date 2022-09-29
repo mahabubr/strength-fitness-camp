@@ -1,0 +1,36 @@
+.sidebar-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar-profile img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.profile-info {
+    margin-left: 20px;
+}
+.profile-name {
+    color: #ffffff;
+}
+.profile-location {
+    color: #d4d3d3;
+}
+.location-info {
+    margin-left: 10px;
+}
+
+.profiles-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222831;
+    margin-top: 30px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px #212121;
+}
+.profile-content {
+    color: #ffffff;
+}
