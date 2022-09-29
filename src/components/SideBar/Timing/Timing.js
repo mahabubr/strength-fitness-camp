@@ -1,17 +1,32 @@
 import React from 'react';
 import './Timing.css'
 
-const Timing = () => {
+const Timing = ({breakTimeHandle}) => {
     return (
         <div className='timing'>
             <div className='break-timing'>
                 <h2>Add A Break</h2>
                 <div className="break-timing-count">
-                    <p>10s</p>
-                    <p>20s</p>
-                    <p>30s</p>
-                    <p>40s</p>
-                    <p>50s</p>
+                    <div className='break-time-btn'>
+                    <button onClick={(e) => breakTimeHandle(e)}>10</button>
+                    <span>s</span>
+                    </div>
+                    <div className='break-time-btn'>
+                    <button onClick={(e) => breakTimeHandle(e)}>20</button>
+                    <span>s</span>
+                    </div>
+                    <div className='break-time-btn'>
+                    <button onClick={(e) => breakTimeHandle(e)}>30</button>
+                    <span>s</span>
+                    </div>
+                    <div className='break-time-btn'>
+                    <button onClick={(e) => breakTimeHandle(e)}>40</button>
+                    <span>s</span>
+                    </div>
+                    <div className='break-time-btn'>
+                    <button onClick={(e) => breakTimeHandle(e)}>50</button>
+                    <span>s</span>
+                    </div>
                 </div>
             </div>
         </div>

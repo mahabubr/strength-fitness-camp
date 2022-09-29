@@ -18,7 +18,7 @@ const SidebarProfile = () => {
             </div>
             <div className="profiles-info">
                 <div className="profile-content">
-                    <h2>62 kg</h2>
+                    <h2>62kg</h2>
                     <p>Weight</p>
                 </div>
                 <div className="profile-content">

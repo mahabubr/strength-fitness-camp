@@ -14,11 +14,16 @@
     border-radius: 10px;
     padding: 20px;
 }
-.break-timing-count p {
+.break-time-btn {
     background-color: #4f5661;;
-    padding: 10px;
-    border-radius: 50%;
     color: #ffffff;
+    border-radius: 50%;
+    padding: 10px;
+}
+.break-time-btn button {
     font-weight: 500;
     cursor: pointer;
+    border: none;
+    background: none;
+    color: #ffffff;
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Exercise.css'
 
-const Exercise = ({timing}) => {
+const Exercise = ({timing, breakTime}) => {
 
     return (
         <div className='exercise-container'>
@@ -13,7 +13,7 @@ const Exercise = ({timing}) => {
                 </div>
                 <div className="exercise-content">
                     <h3>Break time</h3>
-                    <p>30 seconds</p>
+                    <p>{breakTime} seconds</p>
                 </div>
             </div>
             <button className='exercise-btn'>Activity Completed</button>
