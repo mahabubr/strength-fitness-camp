@@ -26,7 +26,7 @@ const SidebarProfile = () => {
                     <p>Height</p>
                 </div>
                 <div className="profile-content">
-                    <h2>25yrs</h2>
+                    <h2>19yrs</h2>
                     <p>Age</p>
                 </div>
             </div>

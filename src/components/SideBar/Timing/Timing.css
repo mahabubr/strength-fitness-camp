@@ -1,0 +1,23 @@
+.timing {
+    margin-top: 40px;
+}
+.break-timing h2 {
+    text-align: left;
+    color: #ffffff;
+}
+.break-timing-count {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #222831;
+    border-radius: 10px;
+    padding: 20px;
+}
+.break-timing-count p {
+    background-color: #4f5661;;
+    padding: 10px;
+    border-radius: 50%;
+    color: #ffffff;
+    font-weight: 500;
+}

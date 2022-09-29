@@ -1,9 +1,7 @@
 import React from 'react';
 import './Card.css'
 
-const Card = ({info}) => {
-
-    console.log(info)
+const Card = ({info, addToList}) => {
 
     const {name, description, thumb, age, time} = info
 

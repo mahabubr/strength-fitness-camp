@@ -1,0 +1,33 @@
+.exercise-container h2 {
+    text-align: left;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.exercise-time {
+    margin-top: 20px;
+}
+.exercise-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222831;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.exercise-btn {
+    margin-top: 40px;
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: #FFE3D8;
+    font-weight: 600;
+    color: #222831;
+    cursor: pointer;
+}
+.exercise-btn:hover {
+    background-color: #f8c9b6;
+}

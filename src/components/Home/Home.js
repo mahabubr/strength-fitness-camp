@@ -6,12 +6,17 @@ import './Home.css'
 const Home = () => {
 
     const [infos, setInfos] = useState([])
+    // const [timing, setTiming] = (0)
 
     useEffect(() => {
         fetch('activity.json')
         .then(res => res.json())
         .then(data => setInfos(data))
     }, [])
+
+    const addToList = () => {
+        console.log("added")
+    }
 
     return (
         <div className='main-container'>
@@ -23,7 +28,7 @@ const Home = () => {
                 <h2 className='title-slogan'>Select today’s exercise</h2>
                 <div className='card-section'>
                     {
-                        infos.map(info => <Card key={info.id} info={info} />)
+                        infos.map(info => <Card key={info.id} info={info} addToList={addToList} />)
                     }
                 </div>
             </div>
