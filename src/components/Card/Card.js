@@ -1,9 +1,9 @@
 import React from 'react';
 import './Card.css'
 
-const Card = ({info, addToList}) => {
+const Card = ({ info, addToList }) => {
 
-    const {name, description, thumb, age, time} = info
+    const { name, description, thumb, age, time } = info
 
     return (
         <div className='card' data-aos="zoom-in-up">
@@ -12,7 +12,7 @@ const Card = ({info, addToList}) => {
             <p className='card-des'>{description.slice(0, 100)}...</p>
             <p className='card-age'>For Age : <span>{age}</span></p>
             <p className='card-time'>Time Required : <span>{time}s</span></p>
-            <button className='card-btn'>Add To List</button>
+            <button onClick={() => addToList(info)} className='card-btn'>Add To List</button>
         </div>
     );
 };

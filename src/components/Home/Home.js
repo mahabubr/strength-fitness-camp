@@ -6,7 +6,7 @@ import './Home.css'
 const Home = () => {
 
     const [infos, setInfos] = useState([])
-    // const [timing, setTiming] = (0)
+    const [timing, setTiming] = useState(0)
 
     useEffect(() => {
         fetch('activity.json')
@@ -14,8 +14,8 @@ const Home = () => {
         .then(data => setInfos(data))
     }, [])
 
-    const addToList = () => {
-        console.log("added")
+    const addToList = (info) => {
+        setTiming(timing + info.time)
     }
 
     return (
@@ -33,7 +33,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='sidebar-container'>
-                <SideBar />
+                <SideBar timing={timing} />
             </div>
         </div>
     );
