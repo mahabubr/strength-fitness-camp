@@ -10,13 +10,22 @@ const Home = () => {
 
     useEffect(() => {
         fetch('activity.json')
-        .then(res => res.json())
-        .then(data => setInfos(data))
+            .then(res => res.json())
+            .then(data => setInfos(data))
     }, [])
 
     const addToList = (info) => {
         setTiming(timing + info.time)
+
+        localStorage.setItem("time", parseInt(timing + info.time))
     }
+
+    useEffect(() => {
+        const time = parseInt(localStorage.getItem('time'))
+        if (time) {
+            setTiming(time)
+        }
+    }, [])
 
     return (
         <div className='main-container'>

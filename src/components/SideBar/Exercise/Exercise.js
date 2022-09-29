@@ -1,7 +1,16 @@
 import React from 'react';
 import './Exercise.css'
+import Swal from 'sweetalert2'
 
-const Exercise = ({timing, breakTime}) => {
+const Exercise = ({ timing, breakTime }) => {
+
+    const activityComplete = () => {
+        Swal.fire(
+            'Good job!',
+            'Your Activity Completed!',
+            'success'
+        )
+    }
 
     return (
         <div className='exercise-container'>
@@ -16,7 +25,7 @@ const Exercise = ({timing, breakTime}) => {
                     <p>{breakTime} seconds</p>
                 </div>
             </div>
-            <button className='exercise-btn'>Activity Completed</button>
+            <button className='exercise-btn' onClick={activityComplete}>Activity Completed</button>
         </div>
     );
 };
