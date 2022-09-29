@@ -36,3 +36,23 @@
 .cont {
     background-color: red;
 }
+
+@media screen and (max-width: 992px) {
+    .main-container {
+        grid-template-columns: 1fr;
+    }
+    .card-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card-container {
+        padding: 50px;
+    }
+}
+@media screen and (max-width: 620px) {
+    .card-section {
+        grid-template-columns: 1fr;
+    }
+    .card-container {
+        padding: 50px;
+    }
+}

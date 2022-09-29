@@ -18,6 +18,7 @@ const Home = () => {
         setTiming(timing + info.time)
 
         localStorage.setItem("time", parseInt(timing + info.time))
+
     }
 
     useEffect(() => {

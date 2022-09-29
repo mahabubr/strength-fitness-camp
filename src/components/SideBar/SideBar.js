@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import Exercise from './Exercise/Exercise';
 import './SideBar.css'
-import Exercise from './SidebarProfile/Exercise/Exercise';
 import SidebarProfile from './SidebarProfile/SidebarProfile';
 import Timing from './Timing/Timing';
 
@@ -17,7 +17,7 @@ const SideBar = ({ timing }) => {
 
     useEffect(() => {
         const items = localStorage.getItem('break time', breakTime)
-        if (items) {
+        if(items) {
             setBreakTime(items)
         }
     }, [breakTime])
